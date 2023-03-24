@@ -21,7 +21,7 @@ namespace TiK1
         WaveFileReader reader;
         List<Complex> Fur = new List<Complex>(), ReFur = new List<Complex>();
         string outputFilename = "output.wav", filename1 = "converted_1.wav", filename2 = "converted_2.wav";
-        Image image = Image.FromFile("tr.png");
+        Image image = Image.FromFile("//tr.png");
         float h = 0;
         /// <summary>
         /// Инициализация формы
